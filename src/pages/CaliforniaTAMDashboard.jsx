@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Building2, Utensils, Hotel, Heart, Factory, ShoppingBag, GraduationCap, ChevronDown, TrendingUp, MapPin, Users, Warehouse, Theater, Landmark, Building, Target, DollarSign, AlertCircle, BarChart3, CheckCircle, Sun, Moon } from 'lucide-react';
+import { Building2, Utensils, Hotel, Heart, Factory, ShoppingBag, GraduationCap, ChevronDown, TrendingUp, MapPin, Users, Warehouse, Clapperboard, Landmark, Building, Target, DollarSign, AlertCircle, BarChart3, CheckCircle, Sun, Moon } from 'lucide-react';
 
 const formatNumber = (num) => {
   if (typeof num !== 'number') return num;
@@ -298,7 +298,7 @@ const sectors = [
   {
     id: 'entertainment',
     name: 'Hospitality & Entertainment',
-    icon: Theater,
+    icon: Clapperboard,
     color: '#EF4444',
     description: 'Casinos, Theaters & Venues',
     totalLabel: 'Entertainment Venues',
