@@ -20,6 +20,14 @@ const LandingPage = () => {
       color: 'from-purple-500 to-blue-600'
     },
     {
+      name: 'California TAM Dashboard',
+      description: 'Explore California pest control market intelligence across 12 industry verticals',
+      icon: '📈',
+      status: 'live',
+      url: '/tam-dashboard',
+      color: 'from-emerald-500 to-teal-600'
+    },
+    {
       name: 'Service Quote Generator',
       description: 'Generate professional quotes for residential and commercial clients',
       icon: '📝',
